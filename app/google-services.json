@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219885794411",
+    "firebase_url": "https://hunting-b32dd.firebaseio.com",
+    "project_id": "hunting-b32dd",
+    "storage_bucket": "hunting-b32dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219885794411:android:9a1a2de7bd9b241154ed2e",
+        "android_client_info": {
+          "package_name": "com.starking.bebpopstkng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219885794411-n4amg9qu5at5qpip02h4grlm3nfr86e3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.starking.bebpopstkng",
+            "certificate_hash": "af5088cd739595c6da79587147b6fb32439ef124"
+          }
+        },
+        {
+          "client_id": "219885794411-h2ct296hnsqqe451lmk8fq262pu7mkd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHCdFEfhmU91xgp5MC6bLrvJ0qHiVkBvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219885794411-h2ct296hnsqqe451lmk8fq262pu7mkd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
