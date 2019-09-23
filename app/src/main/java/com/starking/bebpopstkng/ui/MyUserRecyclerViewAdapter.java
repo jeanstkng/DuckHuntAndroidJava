@@ -31,7 +31,7 @@ public class MyUserRecyclerViewAdapter extends RecyclerView.Adapter<MyUserRecycl
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
         int pos = position + 1;
-        holder.textViewPosition.setText(pos + "º");
+        holder.textViewPosition.setText(String.valueOf(pos));
         holder.textViewDucks.setText(String.valueOf(mValues.get(position).getDucks()));
         holder.textViewNick.setText(mValues.get(position).getNick());
     }
@@ -61,7 +61,7 @@ public class MyUserRecyclerViewAdapter extends RecyclerView.Adapter<MyUserRecycl
             mView = view;
             textViewPosition = view.findViewById(R.id.textViewPosition);
             textViewDucks = view.findViewById(R.id.textViewDucks);
-            textViewNick = view.findViewById(R.id.textViewNick);
+            textViewNick = view.findViewById(R.id.textViewNicks);
         }
 
         @Override
