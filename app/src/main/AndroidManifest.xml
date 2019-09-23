@@ -12,11 +12,11 @@
         <activity
             android:name=".ui.RankingActivity"
             android:label="@string/title_activity_ranking"
-            android:parentActivityName=".ui.GameActivity"
+            android:parentActivityName=".ui.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.starking.bebpopstkng.ui.GameActivity" />
+                android:value="com.starking.bebpopstkng.ui.LoginActivity" />
         </activity>
         <activity android:name=".ui.GameActivity" />
         <activity android:name=".ui.LoginActivity">

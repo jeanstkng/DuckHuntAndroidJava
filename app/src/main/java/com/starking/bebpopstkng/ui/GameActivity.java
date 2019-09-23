@@ -258,7 +258,7 @@ public class GameActivity extends AppCompatActivity {
                 //int maxScreenX = 0;
                 //((screenWidth - ivDuck.getWidth()) / 2);
 
-        int maxScreenY = screenHeight - ivDuck.getHeight();
+        int maxScreenY = (screenHeight - ivDuck.getHeight()) - 86;
 
         // Generamos 2 nùmeros aleatorios, uno para la coordenada
         // X y otro para la coordenada Y.

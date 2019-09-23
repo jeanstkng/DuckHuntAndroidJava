@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentReference;
@@ -19,6 +20,7 @@ import com.starking.bebpopstkng.R;
 
 public class LoginActivity extends AppCompatActivity {
 
+    TextView tvByMe;
     EditText etNick;
     Button btnStart;
     String nick;
@@ -34,11 +36,13 @@ public class LoginActivity extends AppCompatActivity {
 
         etNick = findViewById(R.id.editTextNick);
         btnStart = findViewById(R.id.buttonStart);
+        tvByMe = findViewById(R.id.textViewByMe);
 
         // Cambiar fuentes
         Typeface typeface = Typeface.createFromAsset(getAssets(), "Jellee-Roman.ttf");
         etNick.setTypeface(typeface);
         btnStart.setTypeface(typeface);
+        tvByMe.setTypeface(typeface);
 
         //Eventos: evento click
         btnStart.setOnClickListener(new View.OnClickListener(){

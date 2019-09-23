@@ -20,9 +20,9 @@
         android:id="@+id/imageViewCounter"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        app:srcCompat="@drawable/duck_hunt_logo"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/duck_hunt_logo" />
 
     <TextView
         android:id="@+id/textViewCounter"
@@ -54,7 +54,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/textViewTimer"
         app:layout_constraintEnd_toStartOf="@+id/textViewTimer"
         app:layout_constraintTop_toTopOf="@+id/textViewTimer"
-        app:srcCompat="@drawable/ic_timer" />
+        app:srcCompat="@drawable/ic_timer"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/textViewTimer"
@@ -68,10 +69,11 @@
         android:id="@+id/imageButtonPause"
         android:layout_width="38dp"
         android:layout_height="36dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:src="@android:drawable/ic_media_pause"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewCounter"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCounter"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCounter" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
